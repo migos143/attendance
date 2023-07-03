@@ -1,0 +1,49 @@
+@media (max-width:629px) {
+    img.img {
+      display: none;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 25%;
+        margin: 10px;
+        width: 90vw;
+    }
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(84, 119, 147, 1);
+}
+.navbar{
+    background-color: rgba(170, 238, 238, 1);
+}
+.img{
+    height: 70%;
+    width: 70%;
+    border-radius: 20px ;
+}
+/*log in*/
+form{
+    padding: 20% 6% 20% 6%;
+    border-radius: 20px;
+    background-color:  rgba(170, 238, 238, 1);  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+}
+.form-control{
+    padding: 10px 20px ;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+}
+.navbar-nav{
+    background-color: rgba(84, 119, 147, 1);
+    padding: 0px 15px 0px 15px ;
+    margin: 0px 15px 0px 0px;
+    border-radius: 20px;
+}
